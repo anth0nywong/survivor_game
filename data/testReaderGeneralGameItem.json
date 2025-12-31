@@ -1,0 +1,49 @@
+{
+    "round": 1,
+    "enemies": [],
+    "items": [
+        {
+            "posX": 1,
+            "posY": 2,
+            "weapon": {
+                "damage": 3,
+                "range": 1,
+                "color": 65280,
+                "frequency": 5,
+                "bulletNumber": 8
+            },
+            "isDeath": false,
+            "health": 100,
+            "maxHealth": 100,
+            "speed": 0,
+            "isCollected": false
+        },
+        {
+            "posX": 3,
+            "posY": 3,
+            "weapon": {
+                "damage": 1,
+                "range": 2,
+                "color": 65280,
+                "frequency": 5,
+                "bulletNumber": 8
+            },
+            "isDeath": false,
+            "health": 100,
+            "maxHealth": 100,
+            "speed": 0,
+            "isCollected": false
+        }
+    ],
+    "player": {
+        "posX": 1000,
+        "posY": 1000,
+        "isDeath": false,
+        "level": 1,
+        "health": 100,
+        "maxHealth": 100,
+        "experience": 0,
+        "weapons": [],
+        "speed": 15
+    }
+}

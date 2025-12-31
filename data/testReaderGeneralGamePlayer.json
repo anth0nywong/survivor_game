@@ -1,0 +1,31 @@
+{
+    "round": 1,
+    "enemies": [],
+    "items": [],
+    "player": {
+        "posX": 1000,
+        "posY": 1000,
+        "isDeath": false,
+        "level": 2,
+        "health": 100,
+        "maxHealth": 100,
+        "experience": 50,
+        "weapons": [
+            {
+                "damage": 10,
+                "range": 5,
+                "color": 65280,
+                "frequency": 5,
+                "bulletNumber": 8
+            },
+            {
+                "damage": 5,
+                "range": 3,
+                "color": 65280,
+                "frequency": 5,
+                "bulletNumber": 8
+            }
+        ],
+        "speed": 15
+    }
+}

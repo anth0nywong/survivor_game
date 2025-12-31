@@ -1,0 +1,41 @@
+{
+    "round": 1,
+    "enemies": [
+        {
+            "posX": 5,
+            "posY": 5,
+            "damage": 1,
+            "isDeath": false,
+            "icon": "o",
+            "health": 999,
+            "range": 1,
+            "maxHealth": 999,
+            "experience": 10,
+            "speed": 1
+        },
+        {
+            "posX": 10,
+            "posY": 10,
+            "damage": 2,
+            "isDeath": false,
+            "icon": "o",
+            "health": 10,
+            "range": 2,
+            "maxHealth": 10,
+            "experience": 10,
+            "speed": 2
+        }
+    ],
+    "items": [],
+    "player": {
+        "posX": 10,
+        "posY": 10,
+        "isDeath": false,
+        "level": 1,
+        "health": 100,
+        "maxHealth": 100,
+        "experience": 0,
+        "weapons": [],
+        "speed": 2
+    }
+}

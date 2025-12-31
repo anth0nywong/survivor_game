@@ -1,0 +1,11 @@
+{
+    "posX": 10,
+    "posY": 10,
+    "isDeath": false,
+    "level": 1,
+    "health": 100,
+    "maxHealth": 100,
+    "experience": 0,
+    "weapons": [],
+    "speed": 2
+}

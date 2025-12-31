@@ -1,0 +1,91 @@
+{
+    "enemies": [{
+        "posX": 5363,
+        "posY": 4414,
+        "damage": 1,
+        "isDeath": false,
+        "color": -12336615,
+        "icon": "o",
+        "health": 86,
+        "range": 2,
+        "maxHealth": 97,
+        "experience": 10,
+        "speed": 10
+    }],
+    "items": [],
+    "player": {
+        "posX": 1959,
+        "posY": 4405,
+        "isDeath": false,
+        "level": 3,
+        "health": 100,
+        "maxHealth": 100,
+        "experience": 0,
+        "weapons": [
+            {
+                "damage": 19,
+                "bulletNumber": 2,
+                "color": -14452905,
+                "range": 1,
+                "frequency": 160
+            },
+            {
+                "damage": 11,
+                "bulletNumber": 14,
+                "color": -15235316,
+                "range": 3,
+                "frequency": 140
+            },
+            {
+                "damage": 17,
+                "bulletNumber": 10,
+                "color": -9807520,
+                "range": 3,
+                "frequency": 180
+            },
+            {
+                "damage": 19,
+                "bulletNumber": 14,
+                "color": -5675327,
+                "range": 2,
+                "frequency": 180
+            },
+            {
+                "damage": 13,
+                "bulletNumber": 10,
+                "color": -13904171,
+                "range": 3,
+                "frequency": 140
+            },
+            {
+                "damage": 11,
+                "bulletNumber": 12,
+                "color": -7643213,
+                "range": 1,
+                "frequency": 100
+            },
+            {
+                "damage": 10,
+                "bulletNumber": 12,
+                "color": -13190265,
+                "range": 2,
+                "frequency": 120
+            },
+            {
+                "damage": 19,
+                "bulletNumber": 12,
+                "color": -2582780,
+                "range": 2,
+                "frequency": 160
+            },
+            {
+                "damage": 18,
+                "bulletNumber": 4,
+                "color": -10878545,
+                "range": 2,
+                "frequency": 120
+            }
+        ],
+        "speed": 15
+    }
+}
