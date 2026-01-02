@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import gui.FilePrinter;
-import gui.RealTimeGameManager;
+import gui.GameManager;
 import model.EventLog;
 
 // Represents a button that takes the user to the weapon scene
@@ -12,7 +12,7 @@ public class SaveLogButton extends Button {
 
 
     // EFFECTS: constructs a weapon scene button for the given game manager
-    public SaveLogButton(RealTimeGameManager gameManager) {
+    public SaveLogButton(GameManager gameManager) {
         super("Save Log to File", gameManager);
     }
 

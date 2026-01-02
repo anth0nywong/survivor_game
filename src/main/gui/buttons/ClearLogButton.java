@@ -3,7 +3,7 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 import model.EventLog;
 
 // Represents a button that takes the user to the weapon scene
@@ -11,7 +11,7 @@ public class ClearLogButton extends Button {
 
 
     // EFFECTS:  constructs a weapon scene button for the given game manager
-    public ClearLogButton(RealTimeGameManager gameManager) {
+    public ClearLogButton(GameManager gameManager) {
         super("Clear Log", gameManager);
     }
 

@@ -3,13 +3,13 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents a button that restarts the game
 public class RestartButton extends Button {
 
     // EFFECTS: constructs a restart button for the given game manager
-    public RestartButton(RealTimeGameManager gameManager) {
+    public RestartButton(GameManager gameManager) {
         super("Restart Game", gameManager);
     }
 

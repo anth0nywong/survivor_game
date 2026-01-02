@@ -3,15 +3,15 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
-import gui.RealTimeGameManager.GameState;
+import gui.GameManager;
+import gui.GameManager.GameState;
 
 // Represents a button that takes the user to the weapon scene
 public class WeaponSceneButton extends Button {
 
 
     // EFFECTS: constructs a weapon scene button for the given game manager
-    public WeaponSceneButton(RealTimeGameManager gameManager) {
+    public WeaponSceneButton(GameManager gameManager) {
         super("Weapon Inventory", gameManager);
     }
 

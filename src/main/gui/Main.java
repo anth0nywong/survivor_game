@@ -18,7 +18,7 @@ public class Main {
                 // do whatever you need here
             }
         });
-        RealTimeGameManager gamePanel = new RealTimeGameManager(800, 600);
+        GameManager gamePanel = new GameManager(800, 600);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setContentPane(gamePanel);
         window.pack();

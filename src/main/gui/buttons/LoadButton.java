@@ -3,13 +3,13 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents a button that loads a saved game
 public class LoadButton extends Button {
 
     // EFFECTS: constructs a load button for the given game manager
-    public LoadButton(RealTimeGameManager gameManager) {
+    public LoadButton(GameManager gameManager) {
         super("Load Game", gameManager);
     }
     

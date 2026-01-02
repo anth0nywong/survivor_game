@@ -3,13 +3,13 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents a button that starts a new game
 public class StartButton extends Button {
     // EFFECTS: constructs a start button for the given game manager
 
-    public StartButton(RealTimeGameManager gameManager) {
+    public StartButton(GameManager gameManager) {
         super("New Game", gameManager);
     }
 

@@ -7,15 +7,15 @@ package gui.buttons;
 
 import javax.swing.JButton;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents an abstract button in the GUI
 public abstract class Button {
-    RealTimeGameManager gameManager;
+    GameManager gameManager;
     JButton button;
     
     // EFFECTS: constructs a button with the given label
-    public Button(String label, RealTimeGameManager gameManager) {
+    public Button(String label, GameManager gameManager) {
         button = new JButton(label);
         button = customizeButton(button);
         this.gameManager = gameManager;
@@ -45,7 +45,7 @@ public abstract class Button {
     protected abstract void addListener();
     
     // EFFECTS: gets the game manager associated with this button
-    public RealTimeGameManager getGameManager() {
+    public GameManager getGameManager() {
         return this.gameManager;
     }
     

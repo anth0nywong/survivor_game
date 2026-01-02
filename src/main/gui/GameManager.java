@@ -27,7 +27,7 @@ import gui.controllers.*;
 import model.*;
 import persistence.*;
 
-public class RealTimeGameManager extends JPanel implements Runnable, Writable {
+public class GameManager extends JPanel implements Runnable, Writable {
     private static final double SCALE = 0.1;
     private Thread gameThread;
     List<GameController> controllers;
@@ -59,7 +59,7 @@ public class RealTimeGameManager extends JPanel implements Runnable, Writable {
     private Image playerImage;
     
     // EFFECTS: constructs the real-time game manager with given width and height
-    public RealTimeGameManager(int width, int height) {
+    public GameManager(int width, int height) {
         // Try loading a standalone player image `data/ufo.png`. If not present,
         // fall back to loading a soldier sprite sheet and extracting the first frame.
         try {
@@ -631,7 +631,7 @@ public class RealTimeGameManager extends JPanel implements Runnable, Writable {
             }
 
             System.out.println("Loaded game from " + JSON_STORE);
-            this.setCurrentState(RealTimeGameManager.GameState.PLAYING);
+            this.setCurrentState(GameManager.GameState.PLAYING);
         } catch (IOException e) {
             System.out.println("Unable to read from file: " + JSON_STORE);
         }

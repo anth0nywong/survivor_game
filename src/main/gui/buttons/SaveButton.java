@@ -3,13 +3,13 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents a button that saves the current game
 public class SaveButton extends Button {
 
     // EFFECTS: constructs a save button for the given game manager
-    public SaveButton(RealTimeGameManager gameManager) {
+    public SaveButton(GameManager gameManager) {
         super("Save Game", gameManager);
     }
 

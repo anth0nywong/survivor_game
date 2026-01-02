@@ -3,14 +3,14 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
-import gui.RealTimeGameManager.GameState;
+import gui.GameManager;
+import gui.GameManager.GameState;
 
 // Represents a button that takes the user back to the main menu
 public class BackToMenuButton extends Button {
 
     // EFFECTS: constructs a back to menu button for the given game manager
-    public BackToMenuButton(RealTimeGameManager gameManager) {
+    public BackToMenuButton(GameManager gameManager) {
         super("back", gameManager);
     }
 

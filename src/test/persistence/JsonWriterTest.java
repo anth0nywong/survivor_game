@@ -3,7 +3,7 @@ package persistence;
 import org.junit.jupiter.api.Test;
 
 import ca.ubc.cs.ExcludeFromJacocoGeneratedReport;
-import gui.RealTimeGameManager;
+import gui.GameManager;
 import model.Enemy;
 import model.Item;
 import model.Player;
@@ -31,7 +31,7 @@ public class JsonWriterTest extends JsonTest {
     @Test
     void testWriterEmptyGame() {
         try {
-            RealTimeGameManager gm = new RealTimeGameManager(600, 800);
+            GameManager gm = new GameManager(600, 800);
             JsonWriter writer = new JsonWriter("./data/testWriterEmptyGame.json");
             writer.open();
             writer.write(gm);
@@ -52,7 +52,7 @@ public class JsonWriterTest extends JsonTest {
     @Test
     void testWriterGeneralGameEnemy() {
         try {
-            RealTimeGameManager gm = new RealTimeGameManager(600, 800);
+            GameManager gm = new GameManager(600, 800);
 
             JsonWriter writer = new JsonWriter("./data/testWriterGeneralGameEnemy.json");
             Enemy e1 = new Enemy(5, 5, 1, 999, 999, 1, 1, "o", Color.RED);
@@ -77,7 +77,7 @@ public class JsonWriterTest extends JsonTest {
     @Test
     void testWriterGeneralGameItem() {
         try {
-            RealTimeGameManager gm = new RealTimeGameManager(600, 800);
+            GameManager gm = new GameManager(600, 800);
 
             JsonWriter writer = new JsonWriter("./data/testWriterGeneralGameItem.json");
             Item i1 = new Item(1, 2);
@@ -102,7 +102,7 @@ public class JsonWriterTest extends JsonTest {
     @Test
     void testWriterGeneralGamePlayer() {
         try {
-            RealTimeGameManager gm = new RealTimeGameManager(600, 800);
+            GameManager gm = new GameManager(600, 800);
             
             Player p1 = new Player();
             gm.setPlayer(p1);

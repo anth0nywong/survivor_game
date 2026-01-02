@@ -3,13 +3,13 @@ package gui.buttons;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import gui.RealTimeGameManager;
+import gui.GameManager;
 
 // Represents a button that continues or resumes the game
 public class ContinueButton extends Button {
 
     // EFFECTS: constructs a continue button for the given game manager
-    public ContinueButton(RealTimeGameManager gameManager) {
+    public ContinueButton(GameManager gameManager) {
         super("Continue", gameManager);
     }
 

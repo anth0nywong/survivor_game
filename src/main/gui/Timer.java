@@ -1,6 +1,6 @@
 package gui;
 
-import gui.RealTimeGameManager.GameState;
+import gui.GameManager.GameState;
 
 // Timer class to manage time deltas for game updates
 public class Timer {
